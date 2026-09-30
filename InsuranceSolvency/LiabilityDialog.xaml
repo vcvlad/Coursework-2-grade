@@ -1,0 +1,96 @@
+﻿<Window x:Class="InsuranceApp.LiabilityDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Управление обязательствами" 
+        Height="380" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" 
+                   Text="Информация об обязательстве" 
+                   FontSize="16" FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,20"/>
+
+        <!-- Тип резерва (выбор из справочника) -->
+        <Label Grid.Row="1" Grid.Column="0" 
+               Content="Тип резерва:" 
+               FontWeight="Bold" 
+               VerticalAlignment="Center"/>
+        <ComboBox x:Name="cmbReserveType" 
+                  Grid.Row="1" Grid.Column="1" 
+                  Height="30" Margin="0,5"
+                  DisplayMemberPath="TypeName"
+                  SelectedValuePath="Id"/>
+
+        <!-- Дата формирования -->
+        <Label Grid.Row="2" Grid.Column="0" 
+               Content="Дата формирования:" 
+               FontWeight="Bold" 
+               VerticalAlignment="Center"/>
+        <DatePicker x:Name="dpLiabilityDate" 
+                    Grid.Row="2" Grid.Column="1" 
+                    Height="30" Margin="0,5"/>
+
+        <!-- Сумма -->
+        <Label Grid.Row="3" Grid.Column="0" 
+               Content="Сумма (руб.):" 
+               FontWeight="Bold" 
+               VerticalAlignment="Center"/>
+        <TextBox x:Name="txtAmount" 
+                 Grid.Row="3" Grid.Column="1" 
+                 Height="30" Margin="0,5"
+                 PreviewTextInput="NumberValidationTextBox"/>
+
+        <!-- Описание -->
+        <Label Grid.Row="4" Grid.Column="0" 
+               Content="Описание:" 
+               FontWeight="Bold" 
+               VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDescription" 
+                 Grid.Row="4" Grid.Column="1" 
+                 Height="60" Margin="0,5"
+                 TextWrapping="Wrap"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto"/>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="6" Grid.ColumnSpan="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,20,0,0">
+            <Button x:Name="btnOk" 
+                    Content="Сохранить" 
+                    Width="100" Height="30" 
+                    Margin="0,0,10,0"
+                    Background="#4CAF50" 
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="BtnOk_Click"/>
+            <Button x:Name="btnCancel" 
+                    Content="Отмена" 
+                    Width="100" Height="30"
+                    Background="#F44336" 
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="BtnCancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

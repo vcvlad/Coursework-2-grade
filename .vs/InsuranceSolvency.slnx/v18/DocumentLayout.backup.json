@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\solvencywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\solvencywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\solvencywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\solvencywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\solvencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\solvencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\contractwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\contractwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\contractdialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\contractdialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\contractwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\contractwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\liabilitydialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\liabilitydialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\liabilitydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\liabilitydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\assetdialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\assetdialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\assetdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\assetdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\contractdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\contractdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\reportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\companydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\companydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\companydialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\companydialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|c:\\users\\m42\\desktop\\insurancesolvency\\insurancesolvency\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A9B63E-9A7B-74F1-77AD-A0EF8D175883}|InsuranceSolvency\\InsuranceApp.csproj|solutionrelative:insurancesolvency\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SolvencyWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\SolvencyWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\SolvencyWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\SolvencyWindow.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\SolvencyWindow.xaml.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAgwG4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:13:30.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContractWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\ContractWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractWindow.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\ContractWindow.xaml.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAwMQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:22:52.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\MainWindow.xaml*",
+              "RelativeToolTip": "InsuranceSolvency\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:02:19.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SolvencyWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\SolvencyWindow.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\SolvencyWindow.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\SolvencyWindow.xaml",
+              "RelativeToolTip": "InsuranceSolvency\\SolvencyWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:12:32.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContractDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractDialog.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\ContractDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractDialog.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\ContractDialog.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:29:58.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SolvencyService.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\SolvencyService.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\SolvencyService.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\SolvencyService.cs",
+              "RelativeToolTip": "InsuranceSolvency\\SolvencyService.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAawKUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:06:51.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContractWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractWindow.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\ContractWindow.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractWindow.xaml",
+              "RelativeToolTip": "InsuranceSolvency\\ContractWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:22:46.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LiabilityDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\LiabilityDialog.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\LiabilityDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\LiabilityDialog.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\LiabilityDialog.xaml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAALkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:34:36.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LiabilityDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\LiabilityDialog.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\LiabilityDialog.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\LiabilityDialog.xaml",
+              "RelativeToolTip": "InsuranceSolvency\\LiabilityDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:34:24.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssetDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\AssetDialog.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\AssetDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\AssetDialog.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\AssetDialog.xaml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAALkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:33:07.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssetDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\AssetDialog.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\AssetDialog.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\AssetDialog.xaml",
+              "RelativeToolTip": "InsuranceSolvency\\AssetDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:32:56.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\AssemblyInfo.cs",
+              "RelativeToolTip": "InsuranceSolvency\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T22:17:27.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContractDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractDialog.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\ContractDialog.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ContractDialog.xaml",
+              "RelativeToolTip": "InsuranceSolvency\\ContractDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:29:17.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\MainWindow.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAuwIgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:02:19.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ReportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\ReportWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ReportWindow.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\ReportWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T15:06:01.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReportWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ReportWindow.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\ReportWindow.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\ReportWindow.xaml",
+              "RelativeToolTip": "InsuranceSolvency\\ReportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-02T15:05:41.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompanyDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\CompanyDialog.xaml",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\CompanyDialog.xaml",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\CompanyDialog.xaml",
+              "RelativeToolTip": "InsuranceSolvency\\CompanyDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T20:07:40.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CompanyDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\CompanyDialog.xaml.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\CompanyDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\CompanyDialog.xaml.cs",
+              "RelativeToolTip": "InsuranceSolvency\\CompanyDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:07:50.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DBHelper.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\DBHelper.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\DBHelper.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\DBHelper.cs",
+              "RelativeToolTip": "InsuranceSolvency\\DBHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA/wCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:05:25.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\Company.cs",
+              "RelativeDocumentMoniker": "InsuranceSolvency\\Company.cs",
+              "ToolTip": "C:\\Users\\M42\\Desktop\\InsuranceSolvency\\InsuranceSolvency\\Company.cs",
+              "RelativeToolTip": "InsuranceSolvency\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:06:35.967Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

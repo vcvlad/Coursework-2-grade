@@ -1,0 +1,127 @@
+﻿<Window x:Class="InsuranceApp.SolvencyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Анализ платежеспособности страховых компаний" 
+        Height="550" Width="1000"
+        WindowStartupLocation="CenterOwner">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <Border Grid.Row="0" Background="#2C3E50" CornerRadius="5" Margin="0,0,0,10">
+            <TextBlock Text="Оценка платежеспособности страховых компаний" 
+                       FontSize="18" FontWeight="Bold" 
+                       Foreground="White" 
+                       HorizontalAlignment="Center" 
+                       Padding="10"/>
+        </Border>
+
+        <!-- Информационная панель -->
+        <Border Grid.Row="1" Background="#ECF0F1" CornerRadius="5" Margin="0,0,0,10" Padding="10">
+            <StackPanel>
+                <TextBlock Text="Методика расчета:" FontWeight="Bold" Margin="0,0,0,5"/>
+                <TextBlock Text="• Платежеспособность определяется по формуле: Активы - Обязательства > Нормативный запас" 
+                           FontSize="12" Margin="10,0,0,5"/>
+                <TextBlock Text="• Нормативный запас = 16% от годовой страховой премии" 
+                           FontSize="12" Margin="10,0,0,5"/>
+                <TextBlock Text="• Компания считается платежеспособной, если фактический запас превышает нормативный" 
+                           FontSize="12" Margin="10,0,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Таблица с результатами -->
+        <DataGrid x:Name="dgSolvency" 
+                  Grid.Row="2" 
+                  AutoGenerateColumns="False" 
+                  IsReadOnly="True"
+                  AlternatingRowBackground="#F9F9F9"
+                  RowHeaderWidth="0"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow"
+                  FontSize="13"
+                  Margin="0,0,0,10">
+
+            <DataGrid.Resources>
+                <!-- Стиль для ячеек с деньгами -->
+                <Style TargetType="DataGridCell">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="#3498DB"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+
+                <!-- Стиль для строк с разным статусом -->
+                <Style TargetType="DataGridRow">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Status}" Value="Не платежеспособна">
+                            <Setter Property="Background" Value="#FFCDD2"/>
+                            <Setter Property="Foreground" Value="#C62828"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Status}" Value="Платежеспособна">
+                            <Setter Property="Background" Value="#C8E6C9"/>
+                            <Setter Property="Foreground" Value="#2E7D32"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <!-- Настройка отдельных колонок для лучшего отображения -->
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                <DataGridTextColumn Header="Название компании" Binding="{Binding Name}" Width="200"/>
+                <DataGridTextColumn Header="Активы (руб.)" Binding="{Binding TotalAssets}" Width="120"/>
+                <DataGridTextColumn Header="Обязательства (руб.)" Binding="{Binding TotalLiabilities}" Width="150"/>
+                <DataGridTextColumn Header="Факт. запас (руб.)" Binding="{Binding ActualMargin}" Width="130"/>
+                <DataGridTextColumn Header="Годовая премия (руб.)" Binding="{Binding AnnualPremium}" Width="150"/>
+                <DataGridTextColumn Header="Норматив (руб.)" Binding="{Binding NormativeMargin}" Width="120"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="150" FontWeight="Bold"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Нижняя панель с кнопками -->
+        <Border Grid.Row="3" Background="#34495E" CornerRadius="5" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" 
+                           Text="* Цветовая индикация: зеленый - платежеспособна, красный - не платежеспособна" 
+                           Foreground="#ECF0F1" 
+                           FontSize="11" 
+                           VerticalAlignment="Center"/>
+
+                <Button Grid.Column="1" 
+                        x:Name="btnExport" 
+                        Content="Экспорт в Excel" 
+                        Width="120" Height="30" 
+                        Margin="0,0,10,0"
+                        Background="#27AE60" 
+                        Foreground="White"
+                        FontWeight="Bold"
+                        Cursor="Hand"
+                        Click="BtnExport_Click"/>
+
+                <Button Grid.Column="2" 
+                        x:Name="btnClose" 
+                        Content="Закрыть" 
+                        Width="100" Height="30"
+                        Background="#E74C3C" 
+                        Foreground="White"
+                        FontWeight="Bold"
+                        Cursor="Hand"
+                        Click="BtnClose_Click"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

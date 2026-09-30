@@ -1,0 +1,106 @@
+﻿<Window x:Class="InsuranceApp.ContractDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Договор страхования" 
+        Height="450" Width="500"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" 
+                   Text="Информация о договоре страхования" 
+                   FontSize="16" FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,20"/>
+
+        <!-- Вид страхования -->
+        <Label Grid.Row="1" Grid.Column="0" 
+               Content="Вид страхования:" 
+               FontWeight="Bold" 
+               VerticalAlignment="Center"/>
+        <ComboBox x:Name="cmbInsuranceType" 
+                  Grid.Row="1" Grid.Column="1" 
+                  Height="30" Margin="0,5"
+                  DisplayMemberPath="TypeName"
+                  SelectedValuePath="Id"/>
+
+        <!-- Дата начала договора -->
+        <Label Grid.Row="2" Grid.Column="0" 
+               Content="Дата начала:" 
+               FontWeight="Bold" 
+               VerticalAlignment="Center"/>
+        <DatePicker x:Name="dpStartDate" 
+                    Grid.Row="2" Grid.Column="1" 
+                    Height="30" Margin="0,5"/>
+
+        <!-- Дата окончания договора -->
+        <Label Grid.Row="3" Grid.Column="0" 
+               Content="Дата окончания:" 
+               FontWeight="Bold" 
+               VerticalAlignment="Center"/>
+        <DatePicker x:Name="dpEndDate" 
+                    Grid.Row="3" Grid.Column="1" 
+                    Height="30" Margin="0,5"/>
+
+        <!-- Сумма страховой премии -->
+        <Label Grid.Row="4" Grid.Column="0" 
+               Content="Сумма премии (руб.):" 
+               FontWeight="Bold" 
+               VerticalAlignment="Center"/>
+        <TextBox x:Name="txtPremiumAmount" 
+                 Grid.Row="4" Grid.Column="1" 
+                 Height="30" Margin="0,5"
+                 PreviewTextInput="NumberValidationTextBox"/>
+
+        <!-- Примечание -->
+        <Label Grid.Row="5" Grid.Column="0" 
+               Content="Примечание:" 
+               FontWeight="Bold" 
+               VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNote" 
+                 Grid.Row="5" Grid.Column="1" 
+                 Height="60" Margin="0,5"
+                 TextWrapping="Wrap"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto"/>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="7" Grid.ColumnSpan="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,20,0,0">
+            <Button x:Name="btnOk" 
+                    Content="Сохранить" 
+                    Width="100" Height="30" 
+                    Margin="0,0,10,0"
+                    Background="#4CAF50" 
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="BtnOk_Click"/>
+            <Button x:Name="btnCancel" 
+                    Content="Отмена" 
+                    Width="100" Height="30"
+                    Background="#F44336" 
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="BtnCancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

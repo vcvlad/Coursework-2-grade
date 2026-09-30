@@ -1,0 +1,16 @@
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\InsuranceSolvency.csproj.AssemblyReference.cache
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\CompanyDialog.baml
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\ContractWindow.baml
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\SolvencyWindow.baml
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\CompanyDialog.g.cs
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\ContractWindow.g.cs
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\SolvencyWindow.g.cs
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\InsuranceSolvency_MarkupCompile.cache
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\InsuranceSolvency.g.resources
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\InsuranceSolvency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\InsuranceSolvency.AssemblyInfoInputs.cache
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\InsuranceSolvency.AssemblyInfo.cs
+C:\Users\M42\source\repos\InsuranceSolvency\InsuranceSolvency\obj\Debug\net10.0-windows\InsuranceSolvency.csproj.CoreCompileInputs.cache
